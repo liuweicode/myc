@@ -18,12 +18,12 @@
     </style>
     
      <style name="choujiang_title_style">
-        <item name="android:textSize">35sp</item>
+        <item name="android:textSize">75sp</item>
         <item name="android:textColor">@color/golden_yellow</item>
         <item name="android:textStyle">bold</item>
     </style>
      <style name="company_textview_style">
-        <item name="android:textSize">30sp</item>
+        <item name="android:textSize">60sp</item>
         <item name="android:textColor">@color/golden_yellow</item>
         <item name="android:textStyle">bold</item>
     </style>
