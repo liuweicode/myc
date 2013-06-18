@@ -13,4 +13,5 @@ import com.wy.AppConstants;
  */
 public class MycConstants extends AppConstants{
 
+	//测试提交
 }
