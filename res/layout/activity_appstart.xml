@@ -1,12 +1,13 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Appstart"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/bg_appstart"
-    tools:context=".Appstart" >
+    android:background="@drawable/bg_appstart">
     
     <TextView 
-        android:layout_width="wrap_content"
+      	android:layout_width="wrap_content"
     	android:layout_height="wrap_content"
     	android:text="2013年年会抽奖活动"
     	style="@style/choujiang_title_style"
@@ -25,5 +26,5 @@
     	android:layout_marginTop="@dimen/company_textview_margin_top"
     	android:layout_marginBottom="@dimen/company_textview_margin_bottom"
 	    />
-
+	
 </RelativeLayout>

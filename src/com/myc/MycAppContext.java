@@ -1,6 +1,7 @@
 package com.myc;
 
 import com.wy.AppContext;
+import com.wy.exception.AppError;
 
 /** 
  * 描述：全局上下文
@@ -13,4 +14,18 @@ import com.wy.AppContext;
  */
 public class MycAppContext extends AppContext{
 
+	private static MycAppContext instance;
+	
+	public static MycAppContext getInstance(){
+		return instance;
+	}
+	
+	@Override
+	public void onCreate(){
+		instance = this;
+		super.onCreate();
+		
+		
+		
+	}
 }
